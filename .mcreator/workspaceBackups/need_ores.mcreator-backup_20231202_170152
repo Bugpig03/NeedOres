@@ -1,0 +1,479 @@
+{
+  "mod_elements": [
+    {
+      "name": "TransdiemensionalMinerGUI",
+      "type": "gui",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transdimensional_miner_tier1_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/needores/client/gui/TransdiemensionalMinerGUIScreen.java",
+          "src/main/java/net/mcreator/needores/world/inventory/TransdiemensionalMinerGUIMenu.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "TransdimensionalMinerUpdateTick",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transdimensional_miner_tier1_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/needores/procedures/TransdimensionalMinerUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tier1"
+    },
+    {
+      "name": "TransdimensionalMiner",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transdimensional_miner_tier1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/need_ores/models/block/transdimensional_miner_tier1.json",
+          "src/main/java/net/mcreator/needores/block/entity/TransdimensionalMinerBlockEntity.java",
+          "src/main/java/net/mcreator/needores/block/TransdimensionalMinerBlock.java",
+          "src/main/resources/assets/need_ores/blockstates/transdimensional_miner_tier1.json",
+          "src/main/resources/assets/need_ores/models/item/transdimensional_miner_tier1.json"
+        ]
+      },
+      "path": "~/Tier1"
+    },
+    {
+      "name": "ReturnEnergyBlockAndCapacity",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_energy_block_and_capacity",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/needores/procedures/ReturnEnergyBlockAndCapacityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI/ReturnProcedure"
+    },
+    {
+      "name": "ReturnTaskProgressBlock",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_task_progress_block",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/needores/procedures/ReturnTaskProgressBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI/ReturnProcedure"
+    },
+    {
+      "name": "TransdimensionalMinerRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transdimensional_miner_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/need_ores/recipes/transdimensional_miner_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "TransdimensionalMinerTier2",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transdimensional_miner_tier_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/needores/block/entity/TransdimensionalMinerTier2BlockEntity.java",
+          "src/main/java/net/mcreator/needores/block/TransdimensionalMinerTier2Block.java",
+          "src/main/resources/assets/need_ores/blockstates/transdimensional_miner_tier_2.json",
+          "src/main/resources/assets/need_ores/models/item/transdimensional_miner_tier_2.json",
+          "src/main/resources/assets/need_ores/models/block/transdimensional_miner_tier_2.json"
+        ]
+      },
+      "path": "~/Tier2"
+    },
+    {
+      "name": "TransdimensionalMinerTier3",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transdimensional_miner_tier_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/need_ores/models/block/transdimensional_miner_tier_3.json",
+          "src/main/resources/assets/need_ores/models/item/transdimensional_miner_tier_3.json",
+          "src/main/java/net/mcreator/needores/block/entity/TransdimensionalMinerTier3BlockEntity.java",
+          "src/main/resources/assets/need_ores/blockstates/transdimensional_miner_tier_3.json",
+          "src/main/java/net/mcreator/needores/block/TransdimensionalMinerTier3Block.java"
+        ]
+      },
+      "path": "~/Tier3"
+    },
+    {
+      "name": "TransdimensionalMinerTier4",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transdimensional_miner_tier_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/need_ores/models/block/transdimensional_miner_tier_4.json",
+          "src/main/resources/assets/need_ores/models/item/transdimensional_miner_tier_4.json",
+          "src/main/java/net/mcreator/needores/block/TransdimensionalMinerTier4Block.java",
+          "src/main/java/net/mcreator/needores/block/entity/TransdimensionalMinerTier4BlockEntity.java",
+          "src/main/resources/assets/need_ores/blockstates/transdimensional_miner_tier_4.json"
+        ]
+      },
+      "path": "~/Tier4"
+    },
+    {
+      "name": "ReturnConsumptionBlock",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_consumption_block",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/needores/procedures/ReturnConsumptionBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI/ReturnProcedure"
+    },
+    {
+      "name": "ReturnTimeGenOre",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_time_gen_ore",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/needores/procedures/ReturnTimeGenOreProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI/ReturnProcedure"
+    },
+    {
+      "name": "ReturnNameOfBlock",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_name_of_block",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/needores/procedures/ReturnNameOfBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI/ReturnProcedure"
+    },
+    {
+      "name": "TransdimensionalMinerTier2UpdateTick",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transdimensional_miner_tier_2_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/needores/procedures/TransdimensionalMinerTier2UpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tier2"
+    },
+    {
+      "name": "TransdimensionalMinerTier3UpdateTick",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transdimensional_miner_tier_3_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/needores/procedures/TransdimensionalMinerTier3UpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tier3"
+    },
+    {
+      "name": "TransdimensionalMinerTier4UpdateTick",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transdimensional_miner_tier_4_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/needores/procedures/TransdimensionalMinerTier4UpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tier4"
+    },
+    {
+      "name": "TransdimensionalMinerTier2Recipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transdimensional_miner_tier_2_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/need_ores/recipes/transdimensional_miner_tier_2_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.need_ores.transdimensional_miner_tier_2": "Transdimensional Miner Tier II",
+      "gui.need_ores.transdimensional_miner_tier1_gui.label_generate": "Progress :",
+      "block.need_ores.transdimensional_miner_tier_3": "Transdimensional Miner Tier III",
+      "block.need_ores.transdimensional_miner_tier_4": "Transdimensional Miner Tier IV",
+      "gui.need_ores.transdimensional_miner_tier1_gui.label_consumption": "Consumption :",
+      "gui.need_ores.transdimensional_miner_tier1_gui.label_10_000_fetick": "15 000 FE/tick",
+      "gui.need_ores.transdimensional_miner_tier1_gui.label_one_ore_every_10_s": "/ 400",
+      "gui.need_ores.transdimensional_miner_tier1_gui.label_transdimensional_miner": "Transdimensional Miner Tier I",
+      "block.need_ores.transdimensional_miner_tier1": "Transdimensional Miner Tier I"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "GUI",
+        "children": [
+          {
+            "name": "ReturnProcedure",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Tier1",
+        "children": []
+      },
+      {
+        "name": "Tier2",
+        "children": []
+      },
+      {
+        "name": "Tier3",
+        "children": []
+      },
+      {
+        "name": "Tier4",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "need_ores",
+    "modName": "Need Ores",
+    "version": "1.0.0",
+    "author": "bugpi, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.needores",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "need_ores:transdimensional_miner_tier1",
+    "need_ores:transdimensional_miner_tier_2",
+    "need_ores:transdimensional_miner_tier_3",
+    "need_ores:transdimensional_miner_tier_4"
+  ]
+}

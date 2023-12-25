@@ -1,0 +1,11 @@
+{
+  "block.need_ores.transdimensional_miner_tier_2": "Transdimensional Miner Tier II",
+  "gui.need_ores.transdimensional_miner_tier1_gui.label_generate": "Progress :",
+  "block.need_ores.transdimensional_miner_tier_3": "Transdimensional Miner Tier III",
+  "block.need_ores.transdimensional_miner_tier_4": "Transdimensional Miner Tier IV",
+  "gui.need_ores.transdimensional_miner_tier1_gui.label_consumption": "Consumption :",
+  "gui.need_ores.transdimensional_miner_tier1_gui.label_10_000_fetick": "15 000 FE/tick",
+  "gui.need_ores.transdimensional_miner_tier1_gui.label_one_ore_every_10_s": "/ 400",
+  "gui.need_ores.transdimensional_miner_tier1_gui.label_transdimensional_miner": "Transdimensional Miner Tier I",
+  "block.need_ores.transdimensional_miner_tier1": "Transdimensional Miner Tier I"
+}

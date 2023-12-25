@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "need_ores:block/transdimentional_miner_tier1_top",
+    "up": "need_ores:block/transdimentional_miner_tier1_top",
+    "north": "need_ores:block/transdimentional_miner_tier2_side",
+    "east": "need_ores:block/transdimentional_miner_tier2_side",
+    "south": "need_ores:block/transdimentional_miner_tier2_side",
+    "west": "need_ores:block/transdimentional_miner_tier2_side",
+    "particle": "need_ores:block/transdimentional_miner_tier1_top"
+  },
+  "render_type": "solid"
+}
